@@ -80,7 +80,10 @@ namespace Game
                         Form4.BringToFront();
                     }
                     else
+                    {
+                        pictureBox4.Image = Properties.Resources.pause_idle;
                         timer1.Enabled = true;
+                    }
                 }
             }
         }

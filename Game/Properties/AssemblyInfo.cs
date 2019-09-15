@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
 [assembly: AssemblyTitle("Game")]
-[assembly: AssemblyDescription("Game v1.2")]
+[assembly: AssemblyDescription("Game v1.3")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Taiizor")]
 [assembly: AssemblyProduct("Game")]
-[assembly: AssemblyCopyright("Copyright ©  2019 Taiizor Inc.")]
+[assembly: AssemblyCopyright("Copyright © 2019 Taiizor Inc.")]
 [assembly: AssemblyTrademark("Taiizor")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Tüm değerleri belirtebilir veya varsayılan Derleme ve Düzeltme Numaralarını kullanmak için
 // aşağıda gösterildiği gibi '*' kullanabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2.0.0")]
-[assembly: AssemblyFileVersion("1.2.0.0")]
+[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyFileVersion("1.3.0.0")]
