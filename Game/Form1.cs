@@ -20,7 +20,7 @@ namespace Game
         static readonly string Music = Rastgele.Next(1, 3) + ".mp3";
 
         [DllImport("winmm.dll")]
-        private static extern long MciSendString(string strKomut, StringBuilder sb, int rl, IntPtr iptr);
+        private static extern long mciSendString(string strKomut, StringBuilder sb, int rl, IntPtr iptr);
 
         private void PictureBox2_MouseEnter(object sender, EventArgs e)
         {
@@ -83,13 +83,13 @@ namespace Game
 
         private void PlayMusic()
         {
-            MciSendString("open \"" + Music + "\" type mpegvideo alias MediaFile", null, 0, IntPtr.Zero);
-            MciSendString("play MediaFile", null, 0, IntPtr.Zero);
+            mciSendString("open \"" + Music + "\" type mpegvideo alias MediaFile", null, 0, IntPtr.Zero);
+            mciSendString("play MediaFile", null, 0, IntPtr.Zero);
         }
 
         private void StopMusic()
         {
-            MciSendString("close MediaFile", null, 0, IntPtr.Zero);
+            mciSendString("close MediaFile", null, 0, IntPtr.Zero);
         }
 
         private void AyarDosya()
