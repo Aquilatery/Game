@@ -1,14 +1,8 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Game
 {
@@ -26,12 +20,7 @@ namespace Game
         static readonly string Music = Rastgele.Next(1, 3) + ".mp3";
 
         [DllImport("winmm.dll")]
-        private static extern long mciSendString(string strKomut, StringBuilder sb, int rl, IntPtr iptr);
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            this.CenterToScreen();
-        }
+        private static extern long MciSendString(string strKomut, StringBuilder sb, int rl, IntPtr iptr);
 
         private void PictureBox2_MouseEnter(object sender, EventArgs e)
         {
@@ -94,13 +83,13 @@ namespace Game
 
         private void PlayMusic()
         {
-            mciSendString("open \"" + Music + "\" type mpegvideo alias MediaFile", null, 0, IntPtr.Zero);
-            mciSendString("play MediaFile", null, 0, IntPtr.Zero);
+            MciSendString("open \"" + Music + "\" type mpegvideo alias MediaFile", null, 0, IntPtr.Zero);
+            MciSendString("play MediaFile", null, 0, IntPtr.Zero);
         }
 
         private void StopMusic()
         {
-            mciSendString("close MediaFile", null, 0, IntPtr.Zero);
+            MciSendString("close MediaFile", null, 0, IntPtr.Zero);
         }
 
         private void AyarDosya()

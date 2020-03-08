@@ -8,6 +8,5 @@ E:\MyProject\Oyun\Game\Game\obj\Release\Game.Form3.resources
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.Form4.resources
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.Properties.Resources.resources
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.GenerateResource.cache
-E:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.exe
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.pdb

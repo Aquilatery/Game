@@ -291,7 +291,8 @@
             this.Name = "Form3";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "Game";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Game v1.4";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form3_KeyDown);
