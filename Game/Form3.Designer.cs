@@ -185,11 +185,11 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(318, 331);
+            this.label4.Location = new System.Drawing.Point(314, 331);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 26);
+            this.label4.Size = new System.Drawing.Size(119, 26);
             this.label4.TabIndex = 11;
-            this.label4.Text = "İleri: D";
+            this.label4.Text = "Forward: D";
             // 
             // label5
             // 
@@ -197,11 +197,11 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(312, 357);
+            this.label5.Location = new System.Drawing.Point(297, 357);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 26);
+            this.label5.Size = new System.Drawing.Size(135, 26);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Geri: A";
+            this.label5.Text = "Backward: A";
             // 
             // label6
             // 
@@ -209,11 +209,11 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(297, 383);
+            this.label6.Location = new System.Drawing.Point(332, 383);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 26);
+            this.label6.Size = new System.Drawing.Size(100, 26);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Saldır: B";
+            this.label6.Text = "Attack: B";
             // 
             // label7
             // 
@@ -221,11 +221,11 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(606, 383);
+            this.label7.Location = new System.Drawing.Point(601, 383);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 26);
+            this.label7.Size = new System.Drawing.Size(97, 26);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Saldır: 0";
+            this.label7.Text = "Attack: 0";
             // 
             // label8
             // 
@@ -233,11 +233,11 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(621, 357);
+            this.label8.Location = new System.Drawing.Point(566, 357);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 26);
+            this.label8.Size = new System.Drawing.Size(171, 26);
             this.label8.TabIndex = 15;
-            this.label8.Text = "Geri: Right";
+            this.label8.Text = "Backward: Right";
             // 
             // label9
             // 
@@ -245,11 +245,11 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(627, 331);
+            this.label9.Location = new System.Drawing.Point(583, 331);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(95, 26);
+            this.label9.Size = new System.Drawing.Size(139, 26);
             this.label9.TabIndex = 14;
-            this.label9.Text = "İleri: Left";
+            this.label9.Text = "Forward: Left";
             // 
             // timer4
             // 
