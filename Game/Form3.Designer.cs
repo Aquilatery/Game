@@ -163,9 +163,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(39, 156);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 26);
+            this.label2.Size = new System.Drawing.Size(92, 26);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Oyuncu 1";
+            this.label2.Text = "Player 1";
             // 
             // label3
             // 
@@ -173,11 +173,11 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(860, 156);
+            this.label3.Location = new System.Drawing.Point(879, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 26);
+            this.label3.Size = new System.Drawing.Size(92, 26);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Oyuncu 2";
+            this.label3.Text = "Player 2";
             // 
             // label4
             // 
@@ -292,7 +292,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Game v1.4";
+            this.Text = "Game v1.5";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form3_KeyDown);
