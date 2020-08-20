@@ -11,3 +11,16 @@ E:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.GenerateResource.cache
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.exe
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.pdb
 E:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+G:\MyProject\Oyun\Game\Game\bin\Release\Game.exe.config
+G:\MyProject\Oyun\Game\Game\bin\Release\Game.exe
+G:\MyProject\Oyun\Game\Game\bin\Release\Game.pdb
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.csprojAssemblyReference.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.Form1.resources
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.Form2.resources
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.Form3.resources
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.Form4.resources
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.Properties.Resources.resources
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.GenerateResource.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.exe
+G:\MyProject\Oyun\Game\Game\obj\Release\Game.pdb
