@@ -98,7 +98,6 @@ namespace Game
                 Directory.CreateDirectory(SGFOLDER);
             if (File.Exists(SETTING1))
             {
-
                 StreamReader Oku = new StreamReader(SETTING1);
                 string Durum = Oku.ReadLine();
                 Oku.Close();
