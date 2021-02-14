@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace Game
 {
@@ -13,13 +13,12 @@ namespace Game
             InitializeComponent();
         }
 
-        static readonly string SGFOLDER = Application.StartupPath + "\\Settings";
-        static readonly string SETTING1 = SGFOLDER + "\\Setting1.dll";
+        private static readonly string SGFOLDER = Application.StartupPath + "\\Settings";
+        private static readonly string SETTING1 = SGFOLDER + "\\Setting1.dll";
+        private static readonly Random Rastgele = new Random();
+        private static readonly string Music = Rastgele.Next(1, 3) + ".mp3";
 
-        static Random Rastgele = new Random();
-        static readonly string Music = Rastgele.Next(1, 3) + ".mp3";
-
-        [DllImport("winmm.dll")]
+        [DllImport("winmm.dll", CharSet = CharSet.Unicode)]
         private static extern long mciSendString(string strKomut, StringBuilder sb, int rl, IntPtr iptr);
 
         private void PictureBox2_MouseEnter(object sender, EventArgs e)
@@ -95,7 +94,10 @@ namespace Game
         private void AyarDosya()
         {
             if (!Directory.Exists(SGFOLDER))
+            {
                 Directory.CreateDirectory(SGFOLDER);
+            }
+
             if (File.Exists(SETTING1))
             {
                 StreamReader Oku = new StreamReader(SETTING1);
@@ -104,9 +106,13 @@ namespace Game
                 if (Durum == "Y" || Durum == "N")
                 {
                     if (Durum == "Y")
+                    {
                         PlayMusic();
+                    }
                     else
+                    {
                         StopMusic();
+                    }
                 }
                 else
                 {

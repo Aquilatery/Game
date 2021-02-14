@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Taiizor")]
 [assembly: AssemblyProduct("Game")]
-[assembly: AssemblyCopyright("Copyright © 2019 Taiizor")]
+[assembly: AssemblyCopyright("Copyright © 2021 Taiizor")]
 [assembly: AssemblyTrademark("Taiizor")]
 [assembly: AssemblyCulture("")]
 

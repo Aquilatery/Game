@@ -3,13 +3,13 @@ using System.Windows.Forms;
 
 namespace Game
 {
-    static class Game
+    internal static class Game
     {
         /// <summary>
         /// Uygulamanın ana girdi noktası.
         /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
