@@ -52,13 +52,11 @@ namespace Game
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
-            using (Form2 Form2 = new Form2())
+            using Form2 Form2 = new();
+            if (Form2.ShowDialog() == DialogResult.OK)
             {
-                if (Form2.ShowDialog() == DialogResult.OK)
-                {
-                    Form2.Focus();
-                    Form2.BringToFront();
-                }
+                Form2.Focus();
+                Form2.BringToFront();
             }
         }
     }

@@ -15,7 +15,7 @@ namespace Game
 
         private static readonly string SGFOLDER = Application.StartupPath + "\\Settings";
         private static readonly string SETTING1 = SGFOLDER + "\\Setting1.dll";
-        private static readonly Random Rastgele = new Random();
+        private static readonly Random Rastgele = new();
         private static readonly string Music = Rastgele.Next(1, 3) + ".mp3";
 
         [DllImport("winmm.dll", CharSet = CharSet.Unicode)]
@@ -33,13 +33,11 @@ namespace Game
 
         private void PictureBox2_Click(object sender, EventArgs e)
         {
-            using (Form3 Form3 = new Form3())
+            using Form3 Form3 = new();
+            if (Form3.ShowDialog() == DialogResult.OK)
             {
-                if (Form3.ShowDialog() == DialogResult.OK)
-                {
-                    Form3.Focus();
-                    Form3.BringToFront();
-                }
+                Form3.Focus();
+                Form3.BringToFront();
             }
         }
 
@@ -55,13 +53,11 @@ namespace Game
 
         private void PictureBox3_Click(object sender, EventArgs e)
         {
-            using (Form2 Form2 = new Form2())
+            using Form2 Form2 = new();
+            if (Form2.ShowDialog() == DialogResult.OK)
             {
-                if (Form2.ShowDialog() == DialogResult.OK)
-                {
-                    Form2.Focus();
-                    Form2.BringToFront();
-                }
+                Form2.Focus();
+                Form2.BringToFront();
             }
         }
 
@@ -100,7 +96,7 @@ namespace Game
 
             if (File.Exists(SETTING1))
             {
-                StreamReader Oku = new StreamReader(SETTING1);
+                StreamReader Oku = new(SETTING1);
                 string Durum = Oku.ReadLine();
                 Oku.Close();
                 if (Durum == "Y" || Durum == "N")
@@ -118,14 +114,14 @@ namespace Game
                 {
                     File.Delete(@SETTING1);
                     PlayMusic();
-                    StreamWriter Yaz = new StreamWriter(SETTING1);
+                    StreamWriter Yaz = new(SETTING1);
                     Yaz.Write("Y");
                     Yaz.Close();
                 }
             }
             else
             {
-                StreamWriter Yaz = new StreamWriter(SETTING1);
+                StreamWriter Yaz = new(SETTING1);
                 Yaz.Write("Y");
                 Yaz.Close();
             }

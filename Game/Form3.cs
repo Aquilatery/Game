@@ -68,18 +68,16 @@ namespace Game
                 pictureBox4.Cursor = Cursors.No;
                 label1.Text = "3";
                 label1.Visible = true;
-                using (Form4 Form4 = new Form4())
+                using Form4 Form4 = new();
+                if (Form4.ShowDialog() == DialogResult.OK)
                 {
-                    if (Form4.ShowDialog() == DialogResult.OK)
-                    {
-                        Form4.Focus();
-                        Form4.BringToFront();
-                    }
-                    else
-                    {
-                        pictureBox4.Image = Properties.Resources.pause_idle;
-                        timer1.Enabled = true;
-                    }
+                    Form4.Focus();
+                    Form4.BringToFront();
+                }
+                else
+                {
+                    pictureBox4.Image = Properties.Resources.pause_idle;
+                    timer1.Enabled = true;
                 }
             }
         }

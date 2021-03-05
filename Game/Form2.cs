@@ -37,7 +37,7 @@ namespace Game
 
         public void PictureBox4_Click(object sender, EventArgs e)
         {
-            StreamReader Oku = new StreamReader(SETTING1);
+            StreamReader Oku = new(SETTING1);
             string Durum = Oku.ReadLine();
             Oku.Close();
             if (Durum == "Y" || Durum == "N")
@@ -45,14 +45,14 @@ namespace Game
                 if (Durum == "Y")
                 {
                     pictureBox4.Image = Properties.Resources.music_off;
-                    StreamWriter Yaz = new StreamWriter(SETTING1);
+                    StreamWriter Yaz = new(SETTING1);
                     Yaz.Write("N");
                     Yaz.Close();
                 }
                 else
                 {
                     pictureBox4.Image = Properties.Resources.music_on;
-                    StreamWriter Yaz = new StreamWriter(SETTING1);
+                    StreamWriter Yaz = new(SETTING1);
                     Yaz.Write("Y");
                     Yaz.Close();
                 }
@@ -61,7 +61,7 @@ namespace Game
             {
                 File.Delete(SETTING1);
                 pictureBox4.Image = Properties.Resources.music_on;
-                StreamWriter Yaz = new StreamWriter(SETTING1);
+                StreamWriter Yaz = new(SETTING1);
                 Yaz.Write("Y");
                 Yaz.Close();
             }
@@ -69,7 +69,7 @@ namespace Game
 
         private void PictureBox5_Click(object sender, EventArgs e)
         {
-            StreamReader Oku = new StreamReader(SETTING2);
+            StreamReader Oku = new(SETTING2);
             string Durum = Oku.ReadLine();
             Oku.Close();
             if (Durum == "Y" || Durum == "N")
@@ -77,14 +77,14 @@ namespace Game
                 if (Durum == "Y")
                 {
                     pictureBox5.Image = Properties.Resources.sfx_off;
-                    StreamWriter Yaz = new StreamWriter(SETTING2);
+                    StreamWriter Yaz = new(SETTING2);
                     Yaz.Write("N");
                     Yaz.Close();
                 }
                 else
                 {
                     pictureBox5.Image = Properties.Resources.sfx_on;
-                    StreamWriter Yaz = new StreamWriter(SETTING2);
+                    StreamWriter Yaz = new(SETTING2);
                     Yaz.Write("Y");
                     Yaz.Close();
                 }
@@ -93,7 +93,7 @@ namespace Game
             {
                 File.Delete(SETTING2);
                 pictureBox5.Image = Properties.Resources.sfx_on;
-                StreamWriter Yaz = new StreamWriter(SETTING2);
+                StreamWriter Yaz = new(SETTING2);
                 Yaz.Write("Y");
                 Yaz.Close();
             }
@@ -108,14 +108,14 @@ namespace Game
 
             if (!File.Exists(SETTING1))
             {
-                StreamWriter Yaz = new StreamWriter(SETTING1);
+                StreamWriter Yaz = new(SETTING1);
                 Yaz.Write("Y");
                 Yaz.Close();
                 pictureBox4.Image = Properties.Resources.music_on;
             }
             else
             {
-                StreamReader Oku = new StreamReader(SETTING1);
+                StreamReader Oku = new(SETTING1);
                 string Durum = Oku.ReadLine();
                 Oku.Close();
                 if (Durum == "Y" || Durum == "N")
@@ -133,21 +133,21 @@ namespace Game
                 {
                     File.Delete(SETTING1);
                     pictureBox4.Image = Properties.Resources.music_on;
-                    StreamWriter Yaz = new StreamWriter(SETTING1);
+                    StreamWriter Yaz = new(SETTING1);
                     Yaz.Write("Y");
                     Yaz.Close();
                 }
             }
             if (!File.Exists(SETTING2))
             {
-                StreamWriter Yaz = new StreamWriter(SETTING2);
+                StreamWriter Yaz = new(SETTING2);
                 Yaz.Write("Y");
                 Yaz.Close();
                 pictureBox5.Image = Properties.Resources.sfx_on;
             }
             else
             {
-                StreamReader Oku = new StreamReader(SETTING2);
+                StreamReader Oku = new(SETTING2);
                 string Durum = Oku.ReadLine();
                 Oku.Close();
                 if (Durum == "Y" || Durum == "N")
@@ -165,7 +165,7 @@ namespace Game
                 {
                     File.Delete(SETTING2);
                     pictureBox5.Image = Properties.Resources.sfx_on;
-                    StreamWriter Yaz = new StreamWriter(SETTING2);
+                    StreamWriter Yaz = new(SETTING2);
                     Yaz.Write("Y");
                     Yaz.Close();
                 }
