@@ -1,7 +1,8 @@
 G:\MyProject\Oyun\Game\Game\bin\Release\net48\Game.exe.config
 G:\MyProject\Oyun\Game\Game\bin\Release\net48\Game.exe
 G:\MyProject\Oyun\Game\Game\bin\Release\net48\Game.pdb
-G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.csprojAssemblyReference.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.csproj.AssemblyReference.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.csproj.SuggestedBindingRedirects.cache
 G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.Form1.resources
 G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.Form2.resources
 G:\MyProject\Oyun\Game\Game\obj\Release\net48\Game.Form3.resources

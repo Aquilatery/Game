@@ -6,7 +6,7 @@ G:\MyProject\Oyun\Game\Game\bin\Release\net5.0-windows\Game.runtimeconfig.dev.js
 G:\MyProject\Oyun\Game\Game\bin\Release\net5.0-windows\Game.dll
 G:\MyProject\Oyun\Game\Game\bin\Release\net5.0-windows\ref\Game.dll
 G:\MyProject\Oyun\Game\Game\bin\Release\net5.0-windows\Game.pdb
-G:\MyProject\Oyun\Game\Game\obj\Release\net5.0-windows\Game.csprojAssemblyReference.cache
+G:\MyProject\Oyun\Game\Game\obj\Release\net5.0-windows\Game.csproj.AssemblyReference.cache
 G:\MyProject\Oyun\Game\Game\obj\Release\net5.0-windows\Game.Form1.resources
 G:\MyProject\Oyun\Game\Game\obj\Release\net5.0-windows\Game.Form2.resources
 G:\MyProject\Oyun\Game\Game\obj\Release\net5.0-windows\Game.Form3.resources
