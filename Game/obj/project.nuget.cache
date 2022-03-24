@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Fkc1u4SkHlYz4xG4IDGkuwGxBXErlssfJKENOZ5gvzrurO+IGlxiCuWJvHGBPjp/RAlkg24c6Hy0Nkmqdv37GA==",
+  "dgSpecHash": "DMZeDhlJlADXlY5I054OwFvvDCaxbalBEmyFgHcCMh04dlP6Hm1OJojARCEIYEmPYGtX6Nb1/4ux/26SlEcKMA==",
   "success": true,
   "projectFilePath": "G:\\MyProject\\Oyun\\Game\\Game\\Game.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.2\\microsoft.netcore.app.host.win-x64.6.0.2.nupkg.sha512",
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.0\\microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512",
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.0\\microsoft.windowsdesktop.app.ref.6.0.0.nupkg.sha512",
+    "C:\\Users\\Taiizor\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
